@@ -1,0 +1,30 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { WebView1 WebView
+    MoveScaled(2,14,57,43)
+  }
+  { Button1 Button
+    MoveScaled(4,9,26,4)
+    Text = Shortcut(("Start The Traffic"), "S")
+  }
+  { TextBox1 TextBox
+    MoveScaled(3,5,57,3)
+  }
+  { Timer1 #Timer
+    #MoveScaled(53,54)
+    Delay = 40
+  }
+  { ProgressBar1 ProgressBar
+    MoveScaled(0,62,64,2)
+  }
+  { Button2 Button
+    MoveScaled(33,9,26,4)
+    Text = Shortcut(("Stope The Traffic"), "S")
+  }
+  { Label1 Label
+    MoveScaled(4,1,24,4)
+    Text = ("Targget Your  Dommaine Name")
+  }
+}

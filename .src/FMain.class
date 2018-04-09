@@ -1,0 +1,45 @@
+' Gambas class file
+
+
+
+
+Public Sub Button1_Click()
+If TextBox1.Text = "" Then
+  Message.Error("please put url with http://wwww.dommain.com")
+  Timer1.Stop()
+Endif
+Timer1.Start()
+TextBox1.ReadOnly = True
+
+End
+
+
+Public Sub Form_Open()
+If ProgressBar1.Value = 100 / 100 Then
+  
+  ProgressBar1.Value = 0 / 100
+Endif
+ 
+
+End
+
+Public Sub Timer1_Timer()
+
+  ProgressBar1.Value += 1 / 100
+  If ProgressBar1.Value = 5 / 100 Then
+WebView1.Url = TextBox1.Text
+
+Endif
+If ProgressBar1.Value = 100 / 100 Then 
+  ProgressBar1.Value = 0 / 100
+Endif
+
+End
+
+Public Sub Button2_Click()
+
+  TextBox1.Clear()
+  TextBox1.ReadOnly = False 
+  Timer1.Stop()
+  ProgressBar1.Value = 0 / 100
+End
