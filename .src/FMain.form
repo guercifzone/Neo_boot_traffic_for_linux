@@ -2,6 +2,7 @@
 
 { Form Form
   MoveScaled(0,0,64,64)
+  Icon = Picture["neo_subir_by_scaravi-d9wwga2.jpg"]
   { WebView1 WebView
     MoveScaled(2,14,57,43)
   }
@@ -24,7 +25,7 @@
     Text = Shortcut(("Stope The Traffic"), "S")
   }
   { Label1 Label
-    MoveScaled(4,1,24,4)
+    MoveScaled(4,1,30,4)
     Text = ("Targget Your  Dommaine Name")
   }
 }

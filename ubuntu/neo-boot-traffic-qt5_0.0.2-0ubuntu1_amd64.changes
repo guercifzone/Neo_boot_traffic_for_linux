@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 09 Apr 2018 12:00:00 +0000
+Source: neo-boot-traffic-qt5
+Binary: neo-boot-traffic-qt5
+Architecture: source all
+Version: 0.0.2-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: sadik <sadik@sadik-K55VD>
+Changed-By: sadik <sadik@sadik-K55VD>
+Description:
+ neo-boot-traffic-qt5 - qt5 package for Neo Boot Traffic
+Changes:
+ neo-boot-traffic-qt5 (0.0.2-0ubuntu1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ 89378930c0044fd775d3b52c3227775894d91ede 602 neo-boot-traffic-qt5_0.0.2-0ubuntu1.dsc
+ b93682e2aba6602220162c5d68cc9b3aee29bc8b 804 neo-boot-traffic-qt5_0.0.2-0ubuntu1.tar.gz
+ ea979c1fd9e7dbc112ac4912545c0e6f6671c650 1230 neo-boot-traffic-qt5_0.0.2-0ubuntu1_all.deb
+Checksums-Sha256:
+ da7a7a33e9ad227a731bfbeb1786d1eb5d872cdd1c8097791f9096499fa249ee 602 neo-boot-traffic-qt5_0.0.2-0ubuntu1.dsc
+ 4bef1df355769a7debed652f1fcd5a17de4f8d618d32acaaa2614ba31631be78 804 neo-boot-traffic-qt5_0.0.2-0ubuntu1.tar.gz
+ 09b152749617a9653f69f72631c235aa549b14c8545801221f420c21b768130a 1230 neo-boot-traffic-qt5_0.0.2-0ubuntu1_all.deb
+Files:
+ 5ea96ef2f1dfa903f5399fc3655d041b 602 contrib/text optional neo-boot-traffic-qt5_0.0.2-0ubuntu1.dsc
+ dc13fc826b453b2a4227d940124d3951 804 contrib/text optional neo-boot-traffic-qt5_0.0.2-0ubuntu1.tar.gz
+ b0751cb41f1179db63c7f98fb57c8271 1230 contrib/text optional neo-boot-traffic-qt5_0.0.2-0ubuntu1_all.deb

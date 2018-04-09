@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 09 Apr 2018 12:00:00 +0000
+Source: neo-boot-traffic
+Binary: neo-boot-traffic
+Architecture: source all
+Version: 0.0.2-1
+Distribution: unstable
+Urgency: low
+Maintainer: sadik <sadik@sadik-K55VD>
+Changed-By: sadik <sadik@sadik-K55VD>
+Description:
+ neo-boot-traffic - get free visitor to your website
+Changes:
+ neo-boot-traffic (0.0.2-1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ 996ac87975af55ac1a1d066678889656da53bbbf 981 neo-boot-traffic_0.0.2-1.dsc
+ 43c2de9ac3fa777bf60810193d9451c8b4170e73 75529 neo-boot-traffic_0.0.2.orig.tar.gz
+ 5ae2fa413c074d69c56ac71a06f8098296b14776 1101 neo-boot-traffic_0.0.2-1.diff.gz
+ 5df6955f763a5e6beca3f96925fcb88b2522a793 66398 neo-boot-traffic_0.0.2-1_all.deb
+Checksums-Sha256:
+ 8db066d9aadbea21083b603825e37eb95bf7b80ec2b9eb4d24e5724c70f0a3bf 981 neo-boot-traffic_0.0.2-1.dsc
+ dfb6b08f3721fe3e250d57870bd688c89a412d33f107cc943cb8ee80c2c372ab 75529 neo-boot-traffic_0.0.2.orig.tar.gz
+ c3e26e048a59dafb6aea9e3e11b63b50664eb932fc768187e54b6ff2af8d22c4 1101 neo-boot-traffic_0.0.2-1.diff.gz
+ 65eca7ce91a607ebcfc66965c25987d99fb66b89cfc97fa2be55879d1d9b5c7b 66398 neo-boot-traffic_0.0.2-1_all.deb
+Files:
+ fd639aefdda9b9c810cb1c41c2de085b 981 contrib/httpd optional neo-boot-traffic_0.0.2-1.dsc
+ 729443a48322b7fc6f512e4cd51bb9ca 75529 contrib/httpd optional neo-boot-traffic_0.0.2.orig.tar.gz
+ 431865e9c98fed32dcdd7ebb06e328fd 1101 contrib/httpd optional neo-boot-traffic_0.0.2-1.diff.gz
+ b2ceb195172e5fc3b55739fe5ba1caff 66398 contrib/httpd optional neo-boot-traffic_0.0.2-1_all.deb

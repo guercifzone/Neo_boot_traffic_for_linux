@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 09 Apr 2018 12:00:00 +0000
+Source: neo-boot-traffic-qt4
+Binary: neo-boot-traffic-qt4
+Architecture: source all
+Version: 0.0.2-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: sadik <sadik@sadik-K55VD>
+Changed-By: sadik <sadik@sadik-K55VD>
+Description:
+ neo-boot-traffic-qt4 - qt4 package for Neo Boot Traffic
+Changes:
+ neo-boot-traffic-qt4 (0.0.2-0ubuntu1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ 5e1ac059deddd1be78b76396ceed0b30351d941f 602 neo-boot-traffic-qt4_0.0.2-0ubuntu1.dsc
+ fb0969bb4e2f40a3f36a105d64e4f436bc4842b9 803 neo-boot-traffic-qt4_0.0.2-0ubuntu1.tar.gz
+ 52d49e3d205656776fcf19de143ab9a8f6a412fd 1230 neo-boot-traffic-qt4_0.0.2-0ubuntu1_all.deb
+Checksums-Sha256:
+ 1b279867fb6abca6b647b88ef2c550d697736f9850d084b5b2b813e89749d5f9 602 neo-boot-traffic-qt4_0.0.2-0ubuntu1.dsc
+ 6430b2e79851836d3d2091f67ff4b4b5a5f37e20fd6f8c1c3f313429f918d57a 803 neo-boot-traffic-qt4_0.0.2-0ubuntu1.tar.gz
+ ab9184aeba925bba2da360895f8aefe5dcfe569e46170afa61f0084c9df14a59 1230 neo-boot-traffic-qt4_0.0.2-0ubuntu1_all.deb
+Files:
+ b7db45a76ac2624ad80aac425a56d91e 602 contrib/text optional neo-boot-traffic-qt4_0.0.2-0ubuntu1.dsc
+ bd41b0f13ec649f542a9180c7b5c8d19 803 contrib/text optional neo-boot-traffic-qt4_0.0.2-0ubuntu1.tar.gz
+ 9e28d4a865376989d9456972fa63dfe1 1230 contrib/text optional neo-boot-traffic-qt4_0.0.2-0ubuntu1_all.deb
